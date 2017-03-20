@@ -67,11 +67,6 @@ public class ContactCreationTests {
         wd.findElement(By.name("work")).sendKeys("89655555555");
         wd.findElement(By.name("fax")).click();
         wd.findElement(By.name("fax")).clear();
-        wd.findElement(By.name("fax")).sendKeys("86");
-        wd.findElement(By.name("fax")).click();
-        wd.findElement(By.name("fax")).click();
-        wd.findElement(By.name("fax")).click();
-        wd.findElement(By.name("fax")).clear();
         wd.findElement(By.name("fax")).sendKeys("89655555555");
         wd.findElement(By.name("email")).click();
         wd.findElement(By.name("email")).clear();
