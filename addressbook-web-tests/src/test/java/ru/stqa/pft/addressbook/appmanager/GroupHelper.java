@@ -5,20 +5,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.addressbook.model.GroupData;
 
 /**
- * Created by dmaleksandrov on 24.03.2017.
+ * Created by dmaleksandrov on 28.03.2017.
  */
-public class GroupHelper extends BaseHelper {
+public class GroupHelper {
 
   private FirefoxDriver wd;
 
-
   public GroupHelper(FirefoxDriver wd) {
-
     this.wd = wd;
-
   }
 
-  public void returnToGroupPage() {
+  public void returntoGroupPage() {
     wd.findElement(By.linkText("group page")).click();
   }
 
@@ -47,6 +44,8 @@ public class GroupHelper extends BaseHelper {
   }
 
   public void selectGroup() {
-      wd.findElement(By.name("selected[]")).click();
+      if (!wd.findElement(By.name("selected[]")).isSelected()) {
+          wd.findElement(By.name("selected[]")).click();
+      }
   }
 }

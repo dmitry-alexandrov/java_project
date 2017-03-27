@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Created by dmaleksandrov on 24.03.2017.
+ * Created by dmaleksandrov on 28.03.2017.
  */
 public class SessionHelper {
   private FirefoxDriver wd;
@@ -13,9 +13,8 @@ public class SessionHelper {
 
     this.wd = wd;
   }
-
   public void login(String username, String password) {
-    wd.findElement(By.id("LoginForm")).click();
+    wd.get("https://localhost/addressbook/");
     wd.findElement(By.name("user")).click();
     wd.findElement(By.name("user")).clear();
     wd.findElement(By.name("user")).sendKeys(username);

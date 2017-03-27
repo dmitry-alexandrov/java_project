@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 
 /**
- * Created by dmaleksandrov on 20.03.2017.
+ * Created by dmaleksandrov on 28.03.2017.
  */
 public class TestBase {
 
