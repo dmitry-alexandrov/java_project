@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.addressbook.model.GroupData;
 
-/**
- * Created by dmaleksandrov on 28.03.2017.
- */
 public class GroupHelper extends HelperBase {
 
   public GroupHelper(FirefoxDriver wd) {

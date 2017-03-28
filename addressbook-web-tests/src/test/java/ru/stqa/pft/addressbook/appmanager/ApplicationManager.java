@@ -1,12 +1,8 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by dmaleksandrov on 28.03.2017.
- */
 public class ApplicationManager {
   FirefoxDriver wd;
   private SessionHelper sessionHelper;

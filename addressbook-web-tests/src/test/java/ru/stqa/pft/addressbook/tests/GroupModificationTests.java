@@ -3,11 +3,7 @@ package ru.stqa.pft.addressbook.tests;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.GroupData;
 
-/**
- * Created by dmaleksandrov on 28.03.2017.
- */
 public class GroupModificationTests extends TestBase {
-
   @Test
   public void testGroupModification() {
     app.getNavigationHelper().gotoGroupPage();
