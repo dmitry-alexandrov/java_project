@@ -7,7 +7,7 @@ import ru.stqa.pft.addressbook.model.GroupData;
 
 public class GroupCreationTests extends TestBase {
 
-    @Test
+  @Test
   public void testGroupCreation() {
 
     app.getNavigationHelper().gotoGroupPage();
@@ -17,4 +17,4 @@ public class GroupCreationTests extends TestBase {
     app.getGroupHelper().returntoGroupPage();
   }
 
-  }
+}
