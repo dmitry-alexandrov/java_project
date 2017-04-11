@@ -8,7 +8,7 @@ public class ContactData {
   public final String nickname;
   public final String company;
   public final String address;
-  private String group;
+  public String group;
 
   public ContactData(String firstname, String middlename, String lastname, String nickname, String company, String address, String group) {
     this.firstname = firstname;
